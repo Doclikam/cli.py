@@ -5,7 +5,7 @@ def temp_converter(temp_from, temp_to, temp_value):
     elif (temp_from=='DEGREE' and temp_to=='FARENHEIGHT'):
         temp=temp_value + 33.5
         print(f"{temp_value} in degree celcius is equal to{temp} in farenheight!")
-        
+
     
 
 temp_from=input("Are you converting from 'farenheight' or 'degrees':").upper()
